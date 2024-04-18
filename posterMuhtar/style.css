@@ -1,0 +1,158 @@
+.poster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 825px;
+  height: 1320px;
+  background-image: url("./back04.png");
+}
+
+.baslikDivi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 400px;
+}
+
+.baslikDivi span {
+  font-weight: 800;
+  font-size: 60px;
+  text-shadow: 10px 10px 10px black;
+  color: white;
+}
+
+.govdeDivi {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 1000px;
+  /* background-image: linear-gradient(gray, rgb(68, 28, 163)); */
+  padding: 10px;
+}
+
+/* .sutun1, .sutun2, .sutun3{
+    border: 10px solid red;
+} */
+
+.sutun1,
+.sutun3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.sutun2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 70%;
+}
+
+.kucukResim {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.buyukResim {
+  width: 90%;
+  padding: 10px;
+  object-fit: cover;
+}
+
+img {
+  box-shadow: 5px 5px 5px rgb(105, 91, 91);
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.muhtarIsmi {
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 10px 10px 10px lightblue;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-image: linear-gradient(rgb(255, 255, 255), white);
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.satir1,
+.satir2 {
+  display: flex;
+  justify-content: center;
+}
+
+.azaIsım {
+  font-weight: 800;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.muhtarUnvan {
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 10px 10px 10px lightblue;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: linear-gradient(rgb(255, 255, 255), white);
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.muhtarSlogan {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 10px 10px 10px lightblue;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 20px;
+  opacity: 65%;
+  background-image:radial-gradient(rgb(255, 204, 204), rgb(255, 255, 255));
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.satir4 div{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 10px 10px 10px lightblue;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image:radial-gradient(rgb(255, 204, 204), rgb(255, 255, 255));
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px gray;
+}
